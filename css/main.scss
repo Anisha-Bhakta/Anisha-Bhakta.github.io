@@ -43,7 +43,6 @@ body{
         border-style: solid;
         border-color: white;
         border-width: 5px;
-        font-size: 2.0em;
     }
     .slideshow-container {
         max-width: 1000px;
@@ -313,6 +312,12 @@ nav{
 
         li.current a{
             font-weight: bold;
+        }
+    }
+    
+    .middle-section{
+        .subhead{
+            font-size: 2.0em;
         }
     }
     .features{
