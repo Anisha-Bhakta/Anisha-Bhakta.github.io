@@ -1,0 +1,54 @@
+/* Home Page */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+li, a{
+    font-size: 16px;
+    color: black; /* Text color */
+    text-decoration: none;
+}
+
+header{
+    background-color: wheat;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.left-side{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+
+.nav_link{
+    list-style: none;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.outside_image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+/* Amenities */
+.amenities_heading{
+    margin: auto;
+    width: 10%;
+    padding: 10px;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
