@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Northernaire Motel is a small 30 room motel in Maplewood, MN, proudly serving the East Side community since 1955">
+    <title>Northernaire Motel | Maplewood, MN</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <div class="page-shell" id="home">
+        <header class="site-header">
+            <a class="brand" href="#home" aria-label="Northernaire Motel home">
+                <img src="Images/logo.png" alt="Northernaire Motel Logo">
+            </a>
+
+            <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+                <a class="mobile-only" href="#home">Home</a>
+                <a class="mobile-only" href="#amenities">Amenities</a>
+                <a class="mobile-only" href="#photos">Photos</a>
+                <a class="mobile-only" href="#directions">Directions</a>
+                <a class="mobile-only" href="#contact">Contact</a>
+                <a class="nav-call desktop-call" href="tel:6514843336">
+                    <img src="Images/call.svg" alt="">
+                    <span>Call Now</span>
+                </a>
+            </nav>
+        </header>
+
+        <main>
+            <section class="hero" aria-label="Northernaire Motel">
+                <img class="hero-photo" src="Images/outside2.jpg" alt="Exterior of Northernaire Motel">
+                <div class="hero-copy">
+                    <h1>Northernaire Motel</h1>
+                    <p>Clean, convenient rooms in Maplewood, Minnesota</p>
+                    <div class="hero-actions">
+                        <a class="button primary" href="tel:6514843336">
+                            <img src="Images/call.svg" alt="">
+                            <span>Call Now</span>
+                        </a>
+                        <a class="button secondary" href="https://goo.gl/maps/zzJSdGeAHUsEJjrn8">
+                            <img src="Images/map.svg" alt="">
+                            <span>Get Directions</span>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="info-strip" id="contact" aria-label="Contact information">
+                <a href="https://goo.gl/maps/zzJSdGeAHUsEJjrn8">
+                    <img src="Images/map.svg" alt="">
+                    <span>2441 Maplewood Dr.,<br>Maplewood, MN 55109</span>
+                </a>
+                <a href="tel:6514843336">
+                    <img src="Images/call.svg" alt="">
+                    <span>(651) 484-3336</span>
+                </a>
+                <p>
+                    <span class="star">★</span>
+                    <span>Proudly serving the East Side community since 1955</span>
+                </p>
+            </section>
+
+            <section class="amenities" id="amenities" aria-label="Amenities">
+                <article>
+                    <img src="Images/wifi.svg" alt="">
+                    <span>Free High-Speed Wifi</span>
+                </article>
+                <article>
+                    <img src="Images/smoking.svg" alt="">
+                    <span>Smoking and Non-Smoking Rooms</span>
+                </article>
+                <article>
+                    <img src="Images/rv.svg" alt="">
+                    <span>Seasonal RV Hookups</span>
+                </article>
+                <article>
+                    <img src="Images/fridge.svg" alt="">
+                    <span>Fridge and Microwave Included</span>
+                </article>
+                <article>
+                    <img src="Images/coffee.svg" alt="">
+                    <span>Hot Coffee Provided in the Morning</span>
+                </article>
+                <article>
+                    <img src="Images/car.svg" alt="">
+                    <span>Easy Parking</span>
+                </article>
+            </section>
+
+            <section class="lower-grid">
+                <div class="photo-showcase" id="photos" aria-label="Photos of Northernaire Motel">
+                    <section class="photo-group">
+                        <div class="section-heading">
+                            <h2>Our Rooms</h2>
+                        </div>
+                        <div class="room-gallery">
+                            <img src="Images/room2.jpg" alt="Guest room with two beds at Northernaire Motel" data-lightbox-photo>
+                            <img src="Images/room4.jpg" alt="Guest room with bed, desk, and window at Northernaire Motel" data-lightbox-photo>
+                            <img src="Images/bathroom.jpg" alt="Bathroom at Northernaire Motel" data-lightbox-photo>
+                        </div>
+                    </section>
+
+                    <section class="photo-group front-office">
+                        <div class="section-heading">
+                            <h2>Front Office</h2>
+                        </div>
+                        <div class="office-gallery">
+                            <img src="Images/exterior-office.jpg" alt="Exterior entrance to the Northernaire Motel front office" data-lightbox-photo>
+                            <img src="Images/office.jpg" alt="Front office check-in area at Northernaire Motel" data-lightbox-photo>
+                        </div>
+                    </section>
+                </div>
+
+                <div class="map-and-details" id="directions">
+                    <div class="map-panel">
+                        <iframe title="Map to Northernaire Motel" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11281.95294368898!2d-93.062758802507!3d45.015013436148095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x52b2d4480af39885%3A0x678a4443f4e7f842!2s2441%20Maplewood%20Dr%2C%20Maplewood%2C%20MN%2055109!5e0!3m2!1sen!2sus!4v1641005001525!5m2!1sen!2sus" loading="lazy" allowfullscreen referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+
+                    <address>
+                        <strong>2441 Maplewood Dr.,<br>Maplewood, MN 55109</strong>
+                        <a href="tel:6514843336">(651) 484-3336</a>
+                        <a href="mailto:northernaire@hotmail.com">northernaire@hotmail.com</a>
+                        <em>Proudly serving the East Side community since 1955</em>
+                    </address>
+                </div>
+            </section>
+        </main>
+
+        <footer class="site-footer">
+            <span>© 2026 Northernaire Motel</span>
+            <span>Maplewood, MN</span>
+        </footer>
+    </div>
+
+    <div class="mobile-action-bar" aria-label="Quick actions">
+        <a href="tel:6514843336">
+            <img src="Images/call.svg" alt="">
+            <span>Call Now</span>
+        </a>
+        <a href="https://goo.gl/maps/zzJSdGeAHUsEJjrn8">
+            <img src="Images/map.svg" alt="">
+            <span>Get Directions</span>
+        </a>
+    </div>
+
+    <div class="photo-lightbox" aria-hidden="true">
+        <button class="lightbox-arrow lightbox-prev" type="button" aria-label="Previous photo">‹</button>
+        <img class="lightbox-image" src="" alt="">
+        <button class="lightbox-arrow lightbox-next" type="button" aria-label="Next photo">›</button>
+    </div>
+
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle');
+        const siteNav = document.querySelector('.site-nav');
+        const navLinks = document.querySelectorAll('.site-nav a');
+        const mobileMedia = window.matchMedia('(max-width: 1020px)');
+        const lightbox = document.querySelector('.photo-lightbox');
+        const lightboxImage = document.querySelector('.lightbox-image');
+        const lightboxPrev = document.querySelector('.lightbox-prev');
+        const lightboxNext = document.querySelector('.lightbox-next');
+        const lightboxPhotos = Array.from(document.querySelectorAll('[data-lightbox-photo]'));
+        let activePhotoIndex = 0;
+        let touchStartX = 0;
+
+        menuToggle.addEventListener('click', () => {
+            const isOpen = siteNav.classList.toggle('is-open');
+            menuToggle.setAttribute('aria-expanded', isOpen);
+        });
+
+        navLinks.forEach((link) => {
+            link.addEventListener('click', () => {
+                siteNav.classList.remove('is-open');
+                menuToggle.setAttribute('aria-expanded', 'false');
+            });
+        });
+
+        const showPhoto = (index) => {
+            activePhotoIndex = (index + lightboxPhotos.length) % lightboxPhotos.length;
+            const photo = lightboxPhotos[activePhotoIndex];
+            lightboxImage.src = photo.src;
+            lightboxImage.alt = photo.alt;
+        };
+
+        const openLightbox = (index) => {
+            if (!mobileMedia.matches) {
+                return;
+            }
+
+            showPhoto(index);
+            lightbox.classList.add('is-open');
+            lightbox.setAttribute('aria-hidden', 'false');
+            document.body.classList.add('lightbox-open');
+        };
+
+        const closeLightbox = () => {
+            lightbox.classList.remove('is-open');
+            lightbox.setAttribute('aria-hidden', 'true');
+            document.body.classList.remove('lightbox-open');
+        };
+
+        lightboxPhotos.forEach((photo, index) => {
+            photo.addEventListener('click', () => openLightbox(index));
+        });
+
+        lightboxPrev.addEventListener('click', (event) => {
+            event.stopPropagation();
+            showPhoto(activePhotoIndex - 1);
+        });
+
+        lightboxNext.addEventListener('click', (event) => {
+            event.stopPropagation();
+            showPhoto(activePhotoIndex + 1);
+        });
+
+        lightboxImage.addEventListener('click', (event) => {
+            event.stopPropagation();
+        });
+
+        lightbox.addEventListener('click', closeLightbox);
+
+        lightbox.addEventListener('touchstart', (event) => {
+            touchStartX = event.changedTouches[0].clientX;
+        }, { passive: true });
+
+        lightbox.addEventListener('touchend', (event) => {
+            const touchEndX = event.changedTouches[0].clientX;
+            const swipeDistance = touchEndX - touchStartX;
+
+            if (Math.abs(swipeDistance) < 40) {
+                return;
+            }
+
+            if (swipeDistance < 0) {
+                showPhoto(activePhotoIndex + 1);
+            } else {
+                showPhoto(activePhotoIndex - 1);
+            }
+        }, { passive: true });
+
+        mobileMedia.addEventListener('change', () => {
+            if (!mobileMedia.matches) {
+                closeLightbox();
+            }
+        });
+    </script>
+</body>
+</html>
